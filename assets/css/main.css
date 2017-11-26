@@ -212,7 +212,7 @@ strong, bold, b{
 
 
 ol, ul {
-  padding-left: 0;
+  padding-left: 1.0em;
 }
 
 /*
@@ -268,7 +268,7 @@ hr{
   height: 1px;
   border: 0;
   border-top: #e0e0e0 1px double;
-  margin: 2.457rem 0;
+  margin: 1.457rem 0;
   padding: 0;
   text-align: center;
 }
