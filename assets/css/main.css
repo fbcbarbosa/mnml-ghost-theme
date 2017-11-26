@@ -152,7 +152,7 @@ h4{
 }
 
 a {
-  color: #dd4814;
+  color: #a36855;
   transition: color ease 0.3s;
 }
 a:hover, a:active, a.active{
@@ -745,7 +745,7 @@ aside.note:before{
 }
 
 .main-nav--content .back-arrow{
-  color:orange;
+  color:#dd4814;
   font-weight:900;
 }
 
@@ -1135,7 +1135,7 @@ aside.note:before{
 .post-footer {
   position: relative;
   margin: 4rem 0 0 0;
-  padding: 2.457rem 0 0 0;
+  padding: 2.0rem 0 0 0;
   border-top: #EBF2F6 1px solid;
 }
 
@@ -1184,7 +1184,7 @@ aside.note:before{
    links remain at a fixed width the whole time */
 .post-footer .share {
   position: absolute;
-  top: 2.457rem;
+  top: 1.0rem;
   right: 0;
   margin-left: 3%;
 }
