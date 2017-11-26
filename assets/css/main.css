@@ -1479,43 +1479,6 @@ aside.note:before{
   color:orange;
 }
 
-/* The subscribe icon on the footer */
-.subscribe {
-  width: 42px;
-  height: 42x;
-  position: absolute;
-  top: -21px;
-  left: 50%;
-  margin-left: -21px;
-  border: #EBF2F6 1px solid;
-  text-align: center;
-  line-height:1.1rem;
-  border-radius: 50px;
-  background: #FFF;
-  transition: box-shadow 0.5s;
-}
-
-/* The RSS icon, inserted via icon font */
-.subscribe:before {
-  color: orange;
-  font-size: 20px;
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  font-weight: 700;
-  transition: color 0.5s ease;
-}
-
-/* Add a box shadow to on hover */
-.subscribe:hover {
-  box-shadow: rgba(0,0,0,0.05) 0 0 0 3px;
-  transition: box-shadow 0.25s;
-}
-
-.subscribe:hover:before {
-  color: #dd4814;
-}
-
 /* CSS tooltip saying "Subscribe!" - initially hidden */
 .tooltip {
   opacity: 0;
@@ -1553,14 +1516,6 @@ aside.note:before{
   z-index: 220;
   width: 0;
 }
-
-/* On hover, show the tooltip! */
-.subscribe:hover .tooltip {
-opacity: 1;
-top: -35px;
-}
-
-
 
 /* ==========================================================================
    10. Media Queries - Smaller than 1600px
@@ -1961,7 +1916,6 @@ top: -35px;
   .post-footer,
 /*  .site-footer,*/
   .site-footer span:not(.print-data),
-  .subscribe,
   .post-comments,
   hr:after,
   .open-menu,
