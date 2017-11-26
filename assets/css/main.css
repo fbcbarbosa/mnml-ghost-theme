@@ -180,7 +180,7 @@ strong, bold, b{
    than indent. */
 
 
-.post-content > .kg-card-markdown > p + p,
+/* .post-content > .kg-card-markdown > p + p,
 .post-content .thumb + p,
 .post-content aside + p{
   text-indent:1.65em;
@@ -204,7 +204,7 @@ strong, bold, b{
 .post-content h6{
   margin-top: 3.3rem;
   margin-bottom: 1.1rem;
-}
+} */
 
 
 /* END OF TRADITIONAL PARAGRAPH STYLES*/
