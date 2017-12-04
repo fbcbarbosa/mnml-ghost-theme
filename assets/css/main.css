@@ -947,6 +947,9 @@ aside.note:before{
 
 .post-thumbnail img{
   max-width:250px;
+  border-color: #a36855;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .post-content > .kg-card-markdown > p:first-child:first-letter{
