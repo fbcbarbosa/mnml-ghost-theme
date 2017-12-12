@@ -286,7 +286,7 @@ h2 {
 .post-content h2,
 h3 {
   font-size: 36px;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 0.825rem;
 }
 .typl8-delta,
@@ -1302,6 +1302,10 @@ input[type="button"] a:hover {
   text-decoration: none;
 }
 
+h1.post-title.typl8-gamma {
+  font-size: 2.3rem;
+}
+
 .post-excerpt p {
   margin: 1.1rem 0 0 0;
 }
@@ -1503,7 +1507,7 @@ input[type="button"] a:hover {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0 auto -3.5rem 0;
+  margin: 0 auto -3.5rem auto;
   padding: 0.6rem 0;
 }
 
